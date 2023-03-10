@@ -19,12 +19,3 @@ exports.up = function (knex) {
   };
 
 
-// The `theaters` table represents movie theaters. Each theater has the following fields:
-
-// - `theater_id`: (Primary Key) A unique ID for the theater.
-// - `name`: (String) The name of the theater.
-// - `address_line_1`: (String) The first line of the address of the theater.
-// - `address_line_2`: (String) The second line of the address of the theater.
-// - `city`: (String) The city in which the theater is located.
-// - `state`: (String) The state in which the theater is located.
-// - `zip`: (String) The zip in which the theater is located.
