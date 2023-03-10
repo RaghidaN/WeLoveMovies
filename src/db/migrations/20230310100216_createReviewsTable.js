@@ -25,10 +25,3 @@ exports.up = function (knex) {
     return knex.schema.dropTable("reviews");
   };
   
-
-// - `review_id`: (Primary Key) A unique ID for the review.
-// - `content`: (Text) The content of the review, written in markdown.
-// - `score`: (Integer) A numerical representation of the score given to the movie by the critic.
-// - `critic_id`: (Foreign Key) A reference ID to a particular critic.
-// - `movie_id`: (Foreign Key) A reference ID to a particular movie.
-
