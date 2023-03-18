@@ -11,7 +11,7 @@ const {
 } = process.env;
 
 
-const URL =
+const DATABASE_URL =
   NODE_ENV === "production"
     ? PRODUCTION_DATABASE_URL
     : DEVELOPMENT_DATABASE_URL;
